@@ -77,7 +77,7 @@ def main():
             print("No events to add")
             return
 
-        #CREATE THE EVENTS!
+        #CREATE THE EVENTS! yeahhhhh
         for event in APIevents:
             print(event)
             event = service.events().insert(calendarId='primary', body=event).execute()
